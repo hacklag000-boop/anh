@@ -23,10 +23,22 @@
             color: #00ffe0;
         }
 
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
         img {
-            margin: 15px 0;
+            width: 350px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0,255,255,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
         }
 
         iframe {
@@ -64,12 +76,17 @@
     <hr>
 
     <h2>Hình Ảnh Giáo Viên Chủ Nhiệm</h2>
-    <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/anhco.jpg"
-         width="700">
+
+    <div class="image-row">
+        <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/anhco.jpg">
+        <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/cadd14a9-b8d7-41d0-98d2-9018bfb86abf.jpg">
+    </div>
+
+    <hr>
 
     <h2>Hình Ảnh Tập Thể Lớp</h2>
-    <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/47481b35-a943-4577-8f21-c1a8a2a10a0e.jpg"
-         width="700">
+    <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/47481b35-a943-4577-8f21-c1a8a2a10a0e.jpg">
+    <img src="https://raw.githubusercontent.com/hacklag000-boop/anh/main/151e11e8-b629-4018-a6ea-d369c6509dff.jpg">
 
     <hr>
 
